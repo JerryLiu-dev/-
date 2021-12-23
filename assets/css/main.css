@@ -67,7 +67,9 @@ input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
-
+.animation-bg{
+	padding: 120;
+}
 input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
