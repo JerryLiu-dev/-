@@ -11,18 +11,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/index.css" />
+		<script src="https://www.jsdelivr.com/package/npm/letterizejs"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
 
+	<body class="is-preload">
+		
 		<!-- Header -->
 		
 			<section id="header">
 			
 				<div class="inner">
 					
-					<h1>Hi, I'm <strong>Jerry Liu</strong>, a software engineer<br />
-					with a passion for efficient system design, machine learning, and education.</h1>
+					<h1>Hi, I'm <strong>Jerry Liu</strong>, a Data Science and Computer<br />
+					Science student with an interest in ML and Probability</h1>
 					<p>Through this platform I would like to share with you my journey<br />
 					and experiences that shape my work and projects.</p>
 					
@@ -34,13 +36,15 @@
 				</div>
 			</section>
 
-		
-
+			
+			
 		<!-- Two -->
+		
 			<section id="two" class="main style2">
 				<div class="container"></div>
 				<div class="col-6 col-12-medium">
 					<header class="major">
+						
 						<h2>Projects<br />
 						</h2>
 					</header>
@@ -55,18 +59,18 @@
 						</div>
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img class="resize" src="images/photo-1549421263-6064833b071b.jpeg" alt="" /></span>
-							<h3><strong>Stock Option Optimizer App</strong></h3>
+							<h3><strong>Stock Option Optimizer Algorithm</strong></h3>
 							<p>An app that calculates optimal transactions given user budget and a set of put and calls to optimize profit through dynamic programming. </p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="https://github.com/JerryLiu-dev/QuantitativeFin/blob/main/Main.java" class="button">More</a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-								<span class="image fit"><img class="resize" src="images/photo-1430276084627-789fe55a6da0.jpeg" alt="" /></span>
-								<h3><strong>Credit Card Securitization</strong></h3>
-								<p>Worked on an online payment system wherein I integrated language compatibility and credit card validation via luhn's algorithm.</p>
+								<span class="image fit"><img class="resize" src="images/coronavirus-models-1587562511175-superJumbo.png" alt="" /></span>
+								<h3><strong>COVID 19 Temporal Modeling</strong></h3>
+								<p>An exploration into COVID 19 Temporal Statistics with extensive modeling, visualization, and prediction.</p>
 								<ul class="actions special">
-									<li><a href="#" class="button">More</a></li>
+									<li><a href="https://github.com/JerryLiu-dev/Covid-19-Modeling" class="button">More</a></li>
 								</ul>
 						</div>
 						</div>
@@ -81,6 +85,7 @@
 					<header class="major">
 						<h2>Experiences</h2>
 					</header>
+					
 					<p>A deep dive into the community and work that has shaped me to this day.</p>
 					
 					<div class="row gtr-150">
@@ -89,23 +94,24 @@
 							<h3><strong> Lux Scholar Front End Developer</strong></h3>
 							<p>Being admitted into the Fiat Lux program is one of my most cherished opportunities I have had the honor of undertaking. In hommage to their motto "Let There be Light", I am developing a front end interface to connect Fiat Lux scholars to disadvantaged high schools to guide,teach, and mentor students in even the harshest conditions.</p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/df.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/dfg1.jpg" alt="" /></span>
 							<h3><strong>Acquisitions and Financial Analyst at Lee Chandler Private Equity</strong></h3>
 							<p>As a Financial Analyst at Lee Chandler I learned to manage assets, equity, and mortgages in the financial heart of Indianpolis. This internship put my foot in the door for financial management and quantitative analysis via dynamic programming. </p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/fb.jpg" alt="" /></span>
-							<h3><strong> Facebook HackerCup Qualifier</strong></h3>
-							<p>My venture into competitive programming set the tone for my interest in algorithms and data structures. Through this competition I learned to optimize my use of data structures to create more efficient and clean solutions.</p>
+
+							<span class="image fit"><img src="images/eecsnewlogo.png" alt="" /></span>
+							<h3><strong> Undergraduate Data Science Instructor</strong></h3>
+							<p>My venture into the world of pedagogy has taught me to be more articulate and creative in breaking down difficult concepts. It has driven me to understand the data science from different angles to give students more robust understanding.</p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -116,17 +122,15 @@
 			<section id="four" class="main style3 special">
 				<div class="container">
 					<header class="major">
-						<h2> Connect with Me!</h2>
+						<div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
 					</header>
 				
 					
 				</body>
-					<div class ="rounded">
-						<img src ="images/pfp.jpg" width="200px" height = "200px">
-					</div>
+			
 					</div>
 					<ul class="actions special">
-						<li><a href="#" class="button wide primary">https://www.linkedin.com/in/jerry-g-liu/</a></li>
+						<li><a href="https://www.linkedin.com/in/jerry-g-liu/" class="button wide primary">I'm on Linkedin!</a></li>
 						
 					</ul>
 				</div>
@@ -452,15 +456,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Footer -->
 			<section id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+
 				</ul>
 				<ul class="copyright">
-					<li>&copy; 2020 Jerry Liu</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; 2022 Jerry Liu</li><li>
 				</ul>
 			</section>
 
@@ -473,7 +472,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 			<script src="particles.js"></script>
 			<script src="app.js"></script>
-			
+			<script src=vanta.halo.js></script>
 			
 
 	</body>

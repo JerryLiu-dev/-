@@ -113,7 +113,27 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.65em;
 	}
+	@import url(https://fonts.googleapis.com/css?family=Khula:700);
 
+.console-container {
+ 
+  font-family:monospace;
+  font-size:3em;
+  text-align:bottom;
+  height:50px;
+  width:600px;
+  display:block;
+  position:relative;
+  color:white;
+
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -188,7 +208,10 @@ input, select, textarea {
 		position: relative;
 		top: 0.5em;
 	}
-
+	.con {
+		color: white;
+		font-family: monospace;
+	}
 	sup {
 		font-size: 0.8em;
 		position: relative;
@@ -247,7 +270,14 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+	.animate-me {
+        color = "white";
+      }
 
+      span {
+        display: inline-block;
+      }
+	
 /* Container */
 
 	.container {
@@ -296,6 +326,7 @@ input, select, textarea {
 			}
 
 		}
+		
 
 /* Row */
 
