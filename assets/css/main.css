@@ -120,10 +120,9 @@ input, select, textarea {
 .console-container {
  
   font-family:monospace;
-  font-size:3em;
+  font-size:2em;
   text-align:bottom;
   height:50px;
-  width:600px;
   display:block;
   position:relative;
   color:white;
